@@ -14,6 +14,7 @@
 	<div id="app-wrap">
 		<div class="tab">
 			<button class="tablinks" onclick="openTab(event, 'wifi-config')">Wi-Fi configuration</button>
+			<button class="tablinks" onclick="openTab(event, 'wifi-config2')">Wi-Fi configuration</button>
 		</div>
 
 		<div id="wifi-config" class="tabcontent">
@@ -128,6 +129,21 @@
 				</div>
 			</div>
 		</div>
+		<div id="wifi-config2" class="tabcontent">
+			<header>
+				<h1>Wi-Fi</h1>
+			</header>
+			<div id="wifi-status">
+				<h2>Connected to:</h2>
+				<section id="connected-to">
+					<div class="ape">
+						<div class="w0">
+							<div class="pw"><span></span></div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
 	</div>
 	<div id="credits">
 		<header>
@@ -152,5 +168,6 @@
 			<input id="ok-credits" type="button" value="OK" class="ctr" />
 		</div>
 	</div>
+	<div id="pwrdby"><em>Powered by </em><a id="acredits" href="#"><strong>esp32-wifi-manager</strong></a>.</div>
 </body>
 <html>
